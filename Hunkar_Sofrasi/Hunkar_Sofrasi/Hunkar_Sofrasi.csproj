@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cVeriTabani.cs" />
     <Compile Include="GirisForm.cs">
       <SubType>Form</SubType>
     </Compile>
