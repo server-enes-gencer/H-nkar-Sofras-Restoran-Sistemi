@@ -27,3 +27,4 @@ C:\Users\Enes\Documents\GitHub\H-nkar-Sofras-Restoran-Sistemi\Hunkar_Sofrasi\Hun
 C:\Users\Enes\Documents\GitHub\H-nkar-Sofras-Restoran-Sistemi\Hunkar_Sofrasi\Hunkar_Sofrasi\obj\Debug\Hunkar_Sofrasi.csproj.CopyComplete
 C:\Users\Enes\Documents\GitHub\H-nkar-Sofras-Restoran-Sistemi\Hunkar_Sofrasi\Hunkar_Sofrasi\obj\Debug\Hunkar_Sofrasi.exe
 C:\Users\Enes\Documents\GitHub\H-nkar-Sofras-Restoran-Sistemi\Hunkar_Sofrasi\Hunkar_Sofrasi\obj\Debug\Hunkar_Sofrasi.pdb
+C:\Users\Enes\Documents\GitHub\H-nkar-Sofras-Restoran-Sistemi\Hunkar_Sofrasi\Hunkar_Sofrasi\obj\Debug\Hunkar_Sofrasi.MenuForm.resources

@@ -75,6 +75,9 @@
     <EmbeddedResource Include="GirisForm.resx">
       <DependentUpon>GirisForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -103,6 +106,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\power-on_3694386.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\HunkarSofrasiLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\RestaurantTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Rezervation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Paket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\customer_11325753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cash-register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\kitchen_15440202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\document_888034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\settings_1373286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\lock_7855129.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

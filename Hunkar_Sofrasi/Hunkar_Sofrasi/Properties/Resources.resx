@@ -118,13 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HunkarSofrasiLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\HunkarSofrasiLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="doors_5238885" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\doors_5238885.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customer_11325753" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\customer_11325753.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rezervation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Rezervation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_888034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\document_888034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Paket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doors_52388851" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\doors_5238885.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="RestaurantTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RestaurantTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen_15440202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kitchen_15440202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_1373286" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\settings_1373286.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock_7855129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\lock_7855129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="power-on_3694386" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\power-on_3694386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cash-register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cash-register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power-on_36943861" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\power-on_3694386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
