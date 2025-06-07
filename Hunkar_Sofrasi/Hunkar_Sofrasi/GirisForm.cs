@@ -31,6 +31,12 @@ namespace Hunkar_Sofrasi
 
             if (result)
             {
+                cPersonelHareketleri ch = new cPersonelHareketleri();
+                ch.PersonelId = cVeriTabani._PersonelId;
+                ch.Islem = "Giriş Yaptı";
+                ch.Tarih = DateTime.Now;
+                ch.PersonelActionSave(ch);
+
                 this.Hide();
                 MenuForm menu = new MenuForm();
                 menu.Show();
