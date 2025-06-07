@@ -8,8 +8,14 @@ namespace Hunkar_Sofrasi
 {
     internal class cVeriTabani
     {
-        public string conString = "Server=DESKTOP-49A315Q\\Enes;Database=HUNKARSOFRASI;Trusted_Connection=true";
+        public string conString = "Data Source=DESKTOP-49A315Q;Initial Catalog=HunkarSofrasi;Integrated Security=True;";
 
+
+
+
+
+        public static int _PersonelId;
+        public static int _GorevId;
 
     }
 }

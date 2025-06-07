@@ -35,6 +35,7 @@
             this.CikisBtn = new System.Windows.Forms.Button();
             this.LblKullanici = new System.Windows.Forms.Label();
             this.LblSifre = new System.Windows.Forms.Label();
+            this.lblerror = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // PersonelCB
@@ -47,6 +48,7 @@
             this.PersonelCB.Name = "PersonelCB";
             this.PersonelCB.Size = new System.Drawing.Size(202, 27);
             this.PersonelCB.TabIndex = 0;
+            this.PersonelCB.SelectedIndexChanged += new System.EventHandler(this.PersonelCB_SelectedIndexChanged);
             // 
             // TxtSifre
             // 
@@ -68,6 +70,7 @@
             this.GirisBtn.Size = new System.Drawing.Size(90, 63);
             this.GirisBtn.TabIndex = 2;
             this.GirisBtn.UseVisualStyleBackColor = false;
+            this.GirisBtn.Click += new System.EventHandler(this.GirisBtn_Click);
             // 
             // CikisBtn
             // 
@@ -81,6 +84,7 @@
             this.CikisBtn.Size = new System.Drawing.Size(90, 62);
             this.CikisBtn.TabIndex = 3;
             this.CikisBtn.UseVisualStyleBackColor = false;
+            this.CikisBtn.Click += new System.EventHandler(this.CikisBtn_Click);
             // 
             // LblKullanici
             // 
@@ -106,6 +110,18 @@
             this.LblSifre.TabIndex = 5;
             this.LblSifre.Text = "Şifre";
             // 
+            // lblerror
+            // 
+            this.lblerror.AutoSize = true;
+            this.lblerror.BackColor = System.Drawing.Color.Transparent;
+            this.lblerror.ForeColor = System.Drawing.Color.Red;
+            this.lblerror.Location = new System.Drawing.Point(552, 254);
+            this.lblerror.Name = "lblerror";
+            this.lblerror.Size = new System.Drawing.Size(107, 19);
+            this.lblerror.TabIndex = 6;
+            this.lblerror.Text = "Şifre Hatalı!";
+            this.lblerror.Visible = false;
+            // 
             // GirisForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -113,6 +129,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblerror);
             this.Controls.Add(this.LblSifre);
             this.Controls.Add(this.LblKullanici);
             this.Controls.Add(this.CikisBtn);
@@ -123,6 +140,7 @@
             this.Name = "GirisForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sisteme Giriş";
+            this.Load += new System.EventHandler(this.GirisForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +154,7 @@
         private System.Windows.Forms.Button CikisBtn;
         private System.Windows.Forms.Label LblKullanici;
         private System.Windows.Forms.Label LblSifre;
+        private System.Windows.Forms.Label lblerror;
     }
 }
 
